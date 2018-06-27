@@ -1,5 +1,20 @@
-http://api.openweathermap.org/data/2.5/weather?q=London,uk&appid=f34260062a1fdc8a8847b5ec4c844638&units=metric
+
+get weather reponse as csv for usage inside QGIS plugin being developed
 
 
 
-http://api.openweathermap.org/data/2.5/weather?appid=f34260062a1fdc8a8847b5ec4c844638&units=metric&q=London,uk
+
+
+running local api using flask
+
+python3 parser_api.py
+
+expected format
+http://127.0.0.1:5000/weather-api-csv/?location=Chennai,IN
+
+http://127.0.0.1:5000/weather-api-csv/?location=bangalore,in
+
+
+
+
+
