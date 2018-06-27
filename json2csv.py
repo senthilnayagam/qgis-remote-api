@@ -17,8 +17,8 @@ with open('weather.json') as json_file:
 '''
     
 
-print(json.dumps(data, sort_keys=True, indent=4))
+#print(json.dumps(data, sort_keys=True, indent=4))
 
 
-#print("lat,lon")
-#print(data['coord']['lat'])
+print("lat,lon,weather")
+print(data['coord']['lat'],',',data['coord']['lon'],',',data['weather'][0]['description'],',',data['weather'][0]['icon'])
